@@ -1,0 +1,34 @@
+h1 {
+   text-align: center;
+   color: blue;
+}
+
+table {
+   border-collapse: collapse;
+   margin: 0 auto;
+}
+
+#field td {
+   width: 150px;
+   height: 150px;
+   text-align: center;
+   font-size: 64px;
+   color: darkred;
+   vertical-align: middle;
+   border: 5px solid blueviolet;
+   font-weight: bold;
+}
+
+.container {
+   padding-top: 30px;
+   display: flex;
+   flex-direction: column;
+}
+
+.restart-btn {
+   border-radius: 10px;
+   background-color: aqua;
+   font-size: 16px;
+   margin: 48px 40%;
+   padding: 20px;
+}
